@@ -1,0 +1,241 @@
+/* 
+main color =#1E40AF
+*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+
+}
+
+/* --------------------------------------------------------- */
+/* -----------------------home page------------------------- */
+/* -------------------------------------------------------- */
+
+/* ----------Navigation---------------- */
+.navigation{
+    background-color: #1E40AF;
+    border-bottom-left-radius: 20px;
+    margin-bottom: 1rem;
+    padding-bottom: 3rem;
+}
+
+.name{
+    color: white;
+    font-size: 25px;
+}
+.nav-links ul{
+    text-align: right;
+
+}
+.nav-links li{
+    list-style: none;
+    display: inline;
+    padding-right: 5rem;
+    
+}
+
+.nav-links li a{
+    color: white;
+    text-decoration: none;
+    font-size: large;
+    padding-top: 2rem;
+}
+
+
+/*--------section first-------------*/
+
+.first{
+    text-align: center;
+}
+
+.first img{
+    height: 350px;
+    width: auto;
+}
+
+.first header{
+    font-size: 25px;
+}
+
+/* ------------section second-------- */
+
+.second{
+    text-align: center;
+    margin-top:2rem;
+    background-color:#F3F4F6
+
+}
+.second p{
+    text-align: center;
+    padding-top: 1rem;
+
+}
+
+
+
+/* ------------section third-------- */
+
+.third{
+    text-align: center;
+    margin-top:2rem;
+}
+
+.third p{
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-weight: 500;
+
+}
+
+/* ------------section forth-------- */
+
+.fourth{
+    text-align: center;
+    margin-top:2rem;
+    background-color:#F3F4F6
+
+}
+.fourth p{
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+}
+
+/* --------footer------- */
+
+footer{
+    text-align: center;
+    margin-top:0.1rem;
+    background-color: #1E40AF;
+    border-top-right-radius: 20px;
+    text-align: center;
+    padding-bottom: 4rem;
+
+}
+
+.connect  li {
+    display: inline;
+    font-size: 35px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    
+}
+
+.connect li i{
+    color: #F3F4F6;
+}
+/* .icon-footer */
+
+/* .footer-pic{
+    height: 100px;
+    width: auto;
+    text-align: left;
+    border-radius: 10px;
+} */
+
+.footer-connect h1{
+    color: white;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+
+
+/* --------------------------------------------------------- */
+/* -----------------------project page------------------------- */
+/* -------------------------------------------------------- */
+
+/* --------section first------- */
+
+.p-first{
+    text-align: center;
+}
+
+.p-first img{
+    height: 350px;
+    width: auto;
+    padding-top: 3.5rem;
+}
+
+.p-first header{
+    font-size: 25px;
+}
+
+
+
+/* -------------section-main----------- */
+
+.main{
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    
+}
+
+.main ol{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    border:solid 0.1rem #1E40AF;
+    display: block;
+}
+
+button {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 1rem;
+}
+
+.source a{
+    text-decoration: none;
+    background-color: white;
+    color: #1E40AF;
+}
+
+
+
+/* --------------------------------------------------------- */
+/* -----------------------blog page------------------------- */
+/* -------------------------------------------------------- */
+
+
+
+
+
+
+
+
+/* -------------------------------------------------- */
+.container{
+    padding-top:3rem;
+    padding-bottom: 3rem;
+}
+
+button{
+    background-color: #1E40AF;
+    border-radius:0.3rem;
+    box-shadow:none;
+    font-size:0.9rem;
+    
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+
+}
+
+
+
+
+span{
+    color: #1E40AF;
+}
+
