@@ -47,6 +47,24 @@ body {
 
 /*--------section first-------------*/
 
+.main .second{
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  box-sizing: border-box;
+  box-shadow: 6px 8px 15px #1e40af;
+  /* border: solid 0.1rem #1e40af; */
+  list-style: none;
+  display: block;
+  margin: 10px auto;
+  width: 50%;
+  max-width: 700px;
+  min-width: 300px;
+}
+
+#grey{
+  background-color: #f3f4f6;
+} 
+
 .first {
   text-align: center;
 }
@@ -61,8 +79,8 @@ body {
 }
 
 /* ------------section second-------- */
-
-.second {
+ 
+/* .second {
   text-align: center;
   margin-top: 2rem;
   background-color: #f3f4f6;
@@ -70,11 +88,11 @@ body {
 .second p {
   text-align: center;
   padding-top: 1rem;
-}
+} */
 
 /* ------------section third-------- */
 
-.third {
+/* .third {
   text-align: center;
   margin-top: 2rem;
 }
@@ -84,11 +102,11 @@ body {
   padding-top: 1rem;
   padding-bottom: 1rem;
   font-weight: 500;
-}
+} */
 
 /* ------------section forth-------- */
 
-.fourth {
+/* .fourth {
   text-align: center;
   margin-top: 2rem;
   background-color: #f3f4f6;
@@ -97,7 +115,7 @@ body {
   text-align: center;
   padding-top: 1rem;
   padding-bottom: 1rem;
-}
+}  */
 
 /* --------footer------- */
 
@@ -120,6 +138,12 @@ footer {
 .connect li i {
   color: #f3f4f6;
 }
+
+.connect li i:hover{
+  color:#010a2b;
+}
+
+
 /* .icon-footer */
 
 /* .footer-pic{
@@ -167,7 +191,9 @@ footer {
 .main ol {
   padding-top: 3rem;
   padding-bottom: 3rem;
-  border: solid 0.1rem #1e40af;
+  box-sizing: border-box;
+  box-shadow: 6px 8px 15px #1e40af;
+  /* border: solid 0.1rem #1e40af; */
   list-style: none;
   display: block;
   margin: 10px auto;
@@ -180,12 +206,19 @@ button {
   margin-left: 3rem;
   margin-right: 3rem;
   margin-top: 1rem;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  padding: 5px;
 }
 
 .source a {
   text-decoration: none;
-  background-color: white;
-  color: #1e40af;
+  background-color: #1e40af;
+  box-sizing: border-box;
+  border: none;
+  padding: 5px auto;
+
 }
 
 /* --------------------------------------------------------- */
