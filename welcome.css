@@ -50,6 +50,7 @@ body {
   animation-delay: 2s;
   left: 25vw;
   top: 40vh;
+  
 }
 .cube:nth-child(3) {
   animation-delay: 4s;
@@ -69,8 +70,17 @@ body {
 .cube:nth-child(6) {
   animation-delay: 10s;
   left: 50vw;
-  top: 10vh;
+  top: 20vh;
 }
+
+.cube:nth-child(7) {
+  animation-delay: 1s;
+  left: 50vw;
+  right: 50vw;
+  top: 10vh;
+  bottom: 60vh;
+}
+
 /* ================= Header ============ */
 header{
   position: absolute;
@@ -113,7 +123,8 @@ nav ul li:hover{
   transform: skew(10deg);
 }
 /* Logo */
-.logo{
+
+/* .logo{
   width: 35px;
   height: 35px;
   background: #EFEEF5;
@@ -127,7 +138,8 @@ nav ul li:hover{
   line-height: 1.4;
   padding-left: 5px;
   font-weight: bold;
-}
+} */
+
 /* Header content & title & button*/
 .header-content{
   margin-top:25%;
