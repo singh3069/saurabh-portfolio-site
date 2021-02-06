@@ -25,6 +25,7 @@ body {
   padding-bottom: 3rem;
 }
 
+
 .name {
   color: white;
   font-size: 25px;
@@ -45,7 +46,7 @@ body {
   padding-top: 2rem;
 }
 
-.nav-links li a i{
+.nav-links li a i {
   font-size: 30px;
 }
 
@@ -59,7 +60,6 @@ body {
   visibility: visible;
 }
 
-
 .nav-links .tooltip .tooltiptext {
   visibility: hidden;
   width: 120px;
@@ -69,7 +69,7 @@ body {
   border-radius: 6px;
   padding: 5px 0;
   content: " ";
-  
+
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
@@ -77,8 +77,6 @@ body {
   left: 50%;
   margin-left: -60px;
 }
-
-
 
 /*--------section first-------------*/
 
@@ -160,7 +158,7 @@ footer {
   background-color: #1e40af;
   border-top-right-radius: 20px;
   text-align: center;
-  padding-bottom: 4rem;
+  padding-bottom: 1rem;
 }
 
 .connect li {
@@ -190,7 +188,7 @@ footer {
 .footer-connect h1 {
   color: white;
   padding-top: 1rem;
-  padding-bottom: 3rem;
+  padding-bottom: 2rem;
 }
 
 /* --------------------------------------------------------- */
@@ -222,6 +220,11 @@ footer {
   /* display: block; */
 }
 
+.main ol li p {
+  font-size: 17px;
+  margin-bottom: 5px;
+}
+
 .main ol {
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -229,11 +232,13 @@ footer {
   box-shadow: 6px 8px 15px #1e40af;
   /* border: solid 0.1rem #1e40af; */
   list-style: none;
-  display: block;
-  margin: 10px auto;
+  /* display: block; */
+  margin: 5px auto;
   width: 50%;
-  max-width: 700px;
-  min-width: 300px;
+  /* height: 100%; */
+  /* max-width: 800px; */
+  /* min-width: 300px; */
+  /* overflow: hidden; */
 }
 
 button {
@@ -254,6 +259,12 @@ button {
   padding: 5px auto;
 }
 
+.gif {
+  height: 300px;
+  width: 80%;
+  font-size: 100px;
+}
+
 /* --------------------------------------------------------- */
 /* -----------------------blog page------------------------- */
 /* -------------------------------------------------------- */
@@ -271,10 +282,9 @@ button {
   font-size: 0.9rem;
 }
 
-button:hover{
+button:hover {
   transform: scale(1.02);
   box-shadow: 2px 9px 10px 0px #1e40af;
-
 }
 
 button a {

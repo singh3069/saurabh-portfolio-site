@@ -1,4 +1,3 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
 
 * {
@@ -12,25 +11,25 @@ body {
   font-family: "Nunito", sans-serif;
   box-sizing: border-box;
 }
-.container-fluid{
+.container-fluid {
   height: 100%;
   margin: 0;
   padding: 0;
   width: 100%;
-  background: #FFF;
+  background: #fff;
 }
 /* ============= Animation background ========= */
 .background {
   /* background: linear-gradient(132deg, #FC415A, #591BC5, #212335); */
-  background: linear-gradient(132deg, #991e2e, #3b56cc,#1E40AF);
+  background: linear-gradient(132deg, #991e2e, #3b56cc, #1e40af);
   background-size: 400% 400%;
   animation: Gradient 15s ease infinite;
   position: relative;
   height: 100vh;
   width: 100%;
   overflow: hidden;
-  padding:0;
-  margin:0px;
+  padding: 0;
+  margin: 0px;
 }
 .cube {
   position: absolute;
@@ -38,19 +37,18 @@ body {
   left: 45vw;
   width: 10px;
   height: 10px;
-  border: solid 1px #D7D4E4;
+  border: solid 1px #d7d4e4;
   transform-origin: top left;
   transform: scale(0) rotate(0deg) translate(-50%, -50%);
   animation: cube 12s ease-in forwards infinite;
 }
 .cube:nth-child(2n) {
-  border-color: #FFF ;
+  border-color: #fff;
 }
 .cube:nth-child(2) {
   animation-delay: 2s;
   left: 25vw;
   top: 40vh;
-  
 }
 .cube:nth-child(3) {
   animation-delay: 4s;
@@ -82,43 +80,43 @@ body {
 }
 
 /* ================= Header ============ */
-header{
+header {
   position: absolute;
-  top:0%;
+  top: 0%;
   left: 0%;
-  width:100%;
+  width: 100%;
   margin: 0;
   padding: 0;
 }
 /* navbar */
-nav{
-  color: #FFF;
+nav {
+  color: #fff;
   float: right;
-  margin:30px 90px;
+  margin: 30px 90px;
 }
-nav ul{
+nav ul {
   list-style: none;
 }
 nav ul li {
   float: left;
-  transition: .3s;
+  transition: 0.3s;
 }
-nav ul li a{
+nav ul li a {
   text-decoration: none;
-  color: #EFEEF5;
-  transition: .5;
-  font-size:larger;
-  margin-left:16px;
+  color: #efeef5;
+  transition: 0.5;
+  font-size: larger;
+  margin-left: 16px;
 }
-nav ul li:hover a{
+nav ul li:hover a {
   text-decoration: none;
-  color: #1E40AF;
+  color: #1e40af;
 }
-nav ul li:hover{
+nav ul li:hover {
   height: 45px;
   padding-top: 11px;
   margin-top: -30px;
-  background: #EFEEF5;
+  background: #efeef5;
   text-decoration: none;
   transform: skew(10deg);
 }
@@ -141,12 +139,12 @@ nav ul li:hover{
 } */
 
 /* Header content & title & button*/
-.header-content{
-  margin-top:25%;
+.header-content {
+  margin-top: 25%;
   text-align: center;
-  color:  #EFEEF5;
+  color: #efeef5;
 }
-.header-content h1{
+.header-content h1 {
   text-transform: uppercase;
   font-size: 3em;
   letter-spacing: 1px;
@@ -158,22 +156,22 @@ nav ul li:hover{
 }
 .header-content button {
   width: 140px;
-  margin:20px 10px;
+  margin: 20px 10px;
   /* color: #591BC5; */
   /* font-size: 17px; */
-  border:1px solid #EFEEF5;
+  border: 1px solid #efeef5;
   font-weight: 500;
-  background: #EFEEF5;
+  background: #efeef5;
   border-radius: 20px;
   padding: 10px;
-  cursor:pointer;
-  transition: .3s;
+  cursor: pointer;
+  transition: 0.3s;
 }
 
 .header-content button {
-    text-decoration: none;
-    color: #1E40AF;
-    font-size: 18px;
+  text-decoration: none;
+  color: #1e40af;
+  font-size: 18px;
 }
 
 .header-content button:hover {
@@ -201,4 +199,3 @@ nav ul li:hover{
     opacity: 0;
   }
 }
-
