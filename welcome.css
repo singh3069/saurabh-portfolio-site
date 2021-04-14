@@ -120,25 +120,8 @@ nav ul li:hover {
   text-decoration: none;
   transform: skew(10deg);
 }
-/* Logo */
 
-/* .logo{
-  width: 35px;
-  height: 35px;
-  background: #EFEEF5;
-  margin: 40px 63px;
-  float: left;
-  transform: rotate(-30deg);
-}
-.logo span{
-  color: #591BC5;
-  font-size: 2em;
-  line-height: 1.4;
-  padding-left: 5px;
-  font-weight: bold;
-} */
 
-/* Header content & title & button*/
 .header-content {
   margin-top: 25%;
   text-align: center;
